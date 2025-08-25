@@ -1,10 +1,10 @@
-name: CI with Docker
+name: CI with Docker ASHA 
 
 on:
   workflow_dispatch  # Manual trigger, can add push trigger if needed
 
 env:
-  DOCKER_IMAGE: arayapuri/my-python-api-flask
+  DOCKER_IMAGE: ashapemma/api-flask
 
 jobs:
   build-and-deploy:
